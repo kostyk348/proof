@@ -1,0 +1,19 @@
+name: tests
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: форматирование
+        run: cargo fmt --all -- --check
+      - name: тесты
+        run: cargo test
+      - name: демонстрация
+        run: cargo run -q -- demo
