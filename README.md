@@ -1,6 +1,20 @@
+<div align="center">
+
+<img src="docs/banner.svg" alt="proof banner" width="1000">
+
 # proof
 
-Заявление с доказательством, которое можно перепроверить.
+### Заявление с доказательством, которое можно перепроверить.
+
+[![CI](https://github.com/kostyk348/proof/actions/workflows/tests.yml/badge.svg)](https://github.com/kostyk348/proof/actions/workflows/tests.yml)
+[![Release](https://img.shields.io/github/v/release/kostyk348/proof?sort=semver&color=0ea5e9&label=release)](https://github.com/kostyk348/proof/releases)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/kostyk348/proof/blob/main/LICENSE)
+[![Language](https://img.shields.io/badge/lang-Rust-blueviolet)](https://github.com/kostyk348/proof)
+
+</div>
+
+---
+
 
 Проблема настоящая: в переписке агентов и людей «работает» означает «я запустил и вот
 вывод». Через день это утверждение нельзя проверить — вывод остался в чате, команда
